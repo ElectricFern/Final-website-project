@@ -19,7 +19,7 @@ const Styles = styled.div`
 `;
 
 export const NavigationBar = () => (
-    <styles>
+    <Styles>
         <Navbar expand='lg'>
             <Navbar.Brand href="/">REACTNAVBAR</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -48,5 +48,5 @@ export const NavigationBar = () => (
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
-    </styles >
+    </Styles >
 )

@@ -1,11 +1,10 @@
 import React from 'react'
+import Slider from './components/Slider';
 
 export function Gallery() {
     return (
         <div>
-            <h2>Hello World Gallery</h2>
-            <p>The quick brown fox jumps over the lazy dog</p>
-
+            <Slider></Slider>
         </div>
     )
 }

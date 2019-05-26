@@ -1,5 +1,5 @@
 import React from 'react';
-import image from './assets/expand-vertical-4.svg';
+import image from './assets/CloakandSwagger_logo.svg';
 import styled from 'styled-components';
 import Collapsible from './components/Collapsible';
 
@@ -21,8 +21,10 @@ const Styles = styled.div`
     .content {
         background-color: #fff;
         padding: 20px;
-        border-radius: 7px;
-        box-shadow: 1px 1px 4px rgba(0,0,0,0.2);
+        border-radius: 3px;
+        box-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+        max-width: 700px;
+        margin: 0 auto;
         .table {
             margin-bottom: 0;
             td,th {
@@ -67,12 +69,18 @@ const Styles = styled.div`
         }
         .panel-collapse {
             overflow: hidden;
-            transition: height 0.3s ease-out;  
+            transition: height 0.4s ease-out;  
         }
         .panel-body {
             border: none !important;
         }
-        h2 {margin-top: 5px !important;}
+        h2 {
+            margin-top: 5px !important;
+            text-align: center !important;
+        }
+        p {
+            text-align: center !important;
+        }
     }
 `;
 
@@ -82,28 +90,18 @@ export function Home() {
             <div>
                 <header>
                     <img src={image} />
-                    <h1>Welcome</h1>
+                    <h1>Nau Mai, Welcome</h1>
                 </header>
                 <div className="content">
                     <div className="panel-group">
                         <Collapsible title="What we do">
-                            <p>We take custom orders for making bespoke cloaks and capes. You give the basic requirments and the designer does the rest!</p>
+                            <p>We take basic requirements for a custom cloak or cape, the artist designs it, and makes it adding their own artistic flair. The requirements are gathered using the app on the design page. The artist sketches some images, sources appropirate material, then sews using a heavy-duty sewing machine from their studio.</p>
                         </Collapsible>
                         <Collapsible title="Who we are">
-                            <p>The Renegade Seamsmith is an artist who designs and makes custom cloaks and capes.</p>
+                            <p>The Renegade Seamsmith is an artist who designs and makes custom cloaks and capes. They also carry out minor clothing repairs, and create other clothing types. Check out the gallery page to see additional garments availble from their facebook.</p>
                         </Collapsible>
-                        <Collapsible title="How we do it">
-                            <ul>
-                                <li>
-                                    1. Send a request and requirements using the app or contact form.
-                                </li>
-                                <li>
-                                    2. The artist creates it according to requirements.
-                                </li>
-                                <li>
-                                    3. Pictures of the finshed garment are sent to the customer.
-                                </li>
-                            </ul>
+                        <Collapsible title="Why us?">
+                        <p>DIY cloaks and capes are difficult to make save the time and stress and get us to make it for you. The price is fair as it pays a living wage and by not undercutting it supports other artists to not fold to commercial brand price pressure. By having an artist to to do the final product they can add additional flair to the basic requirements given. We also have a cool app which makes requesting a cloak or cape easier.</p>
                         </Collapsible>
                     </div>
                 </div>

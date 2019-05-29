@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import './Slider.css';
 import Card from './Card';
-import data from '../data/data'
+import data from '../data/data';
+import { MDBBtn, MDBCollapse } from "mdbreact";
 
 class Slider extends Component {
 
@@ -30,16 +31,15 @@ class Slider extends Component {
     render() {
     const {properties, property} = this.state;
     return (
-        <div className="sliderApp">
-    
-            <button 
+        <div className="sliderApp">  
+            <MDBBtn floating color="black"
                 onClick={() => this.nextImage()} 
                 disabled={property.index === data.properties.length-1}
-            >Next</button>
-            <button 
+            >Next</MDBBtn>
+            <MDBBtn floating color="black"
                 onClick={() => this.prevImage()} 
                 disabled={property.index === 0}
-            >Prev</button>
+            >Prev</MDBBtn>
     
             <div className="page">
                 <section>

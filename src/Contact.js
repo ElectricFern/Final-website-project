@@ -1,10 +1,11 @@
 import React from 'react'
+import { ContactForm } from './components/ContactForm';
 
 export function Contact() {
     return (
         <div>
-            <h2>Hello World Contact</h2>
-            <p>The quick brown fox jumps over the lazy dog</p>
+            <p>To enquire about a custom piece, feedback, or any other enquieries send us an email using the form below.</p>
+            <ContactForm></ContactForm>
 
         </div>
     )

@@ -1,10 +1,11 @@
 import React from 'react'
 import Slider from './components/Slider';
+import { MDBContainer, MDBCol } from "mdbreact";
 
 export function Gallery() {
     return (
-        <div>
+        <MDBContainer>
             <Slider></Slider>
-        </div>
+        </MDBContainer>
     )
 }

@@ -40,24 +40,7 @@ section {
       top: 0;
       right: 0;
       display: block;
-      padding: 0 10px; }
-    .card .price {
-      margin: 0;
-      padding: 10px 0;
-      font-weight: bold; }
-    .card .details {
-      position: relative; }
-    .card .features {
-      list-style: none;
-      padding: 0;
-      margin: 0; }
-      .card .features li {
-        padding-left: 24px;
-        margin-right: 10px;
-        display: inline-block; }
-        .card .features li span {
-          display: none; }
-  
+      padding: 0 10px; }  
 .cards-slider-wrapper {
     display: flex;
     position: absolute;
@@ -77,129 +60,97 @@ section {
   
 .cards-slider.active-slide-0 #card-0 {
     opacity: 1;
-    transform: scale(1);
-    background-color: #f3f3f3;
-    border-color: #f3f3f3; }
+    transform: scale(1);}
     .cards-slider.active-slide-0 #card-0 .details {
       opacity: 1; }
   
 .cards-slider.active-slide-1 #card-1 {
     opacity: 1;
-    transform: scale(1);
-    background-color: #f3f3f3;
-    border-color: #f3f3f3; }
+    transform: scale(1);}
     .cards-slider.active-slide-1 #card-1 .details {
       opacity: 1; }
   
 .cards-slider.active-slide-2 #card-2 {
     opacity: 1;
-    transform: scale(1);
-    background-color: #f3f3f3;
-    border-color: #f3f3f3; }
+    transform: scale(1);}
     .cards-slider.active-slide-2 #card-2 .details {
       opacity: 1; }
   
 .cards-slider.active-slide-3 #card-3 {
     opacity: 1;
-    transform: scale(1);
-    background-color: #f3f3f3;
-    border-color: #f3f3f3; }
+    transform: scale(1);}
     .cards-slider.active-slide-3 #card-3 .details {
       opacity: 1; }
   
 .cards-slider.active-slide-4 #card-4 {
     opacity: 1;
-    transform: scale(1);
-    background-color: #f3f3f3;
-    border-color: #f3f3f3; }
+    transform: scale(1);}
     .cards-slider.active-slide-4 #card-4 .details {
       opacity: 1; }
   
 .cards-slider.active-slide-5 #card-5 {
     opacity: 1;
-    transform: scale(1);
-    background-color: #f3f3f3;
-    border-color: #f3f3f3; }
+    transform: scale(1);}
     .cards-slider.active-slide-5 #card-5 .details {
       opacity: 1; }
   
 .cards-slider.active-slide-6 #card-6 {
     opacity: 1;
-    transform: scale(1);
-    background-color: #f3f3f3;
-    border-color: #f3f3f3; }
+    transform: scale(1);}
     .cards-slider.active-slide-6 #card-6 .details {
       opacity: 1; }
   
 .cards-slider.active-slide-7 #card-7 {
     opacity: 1;
-    transform: scale(1);
-    background-color: #f3f3f3;
-    border-color: #f3f3f3; }
+    transform: scale(1);}
     .cards-slider.active-slide-7 #card-7 .details {
       opacity: 1; }
   
 .cards-slider.active-slide-8 #card-8 {
     opacity: 1;
-    transform: scale(1);
-    background-color: #f3f3f3;
-    border-color: #f3f3f3; }
+    transform: scale(1);}
     .cards-slider.active-slide-8 #card-8 .details {
       opacity: 1; }
   
 .cards-slider.active-slide-9 #card-9 {
     opacity: 1;
-    transform: scale(1);
-    background-color: #f3f3f3;
-    border-color: #f3f3f3; }
+    transform: scale(1);}
     .cards-slider.active-slide-9 #card-9 .details {
       opacity: 1; }
   
 .cards-slider.active-slide-10 #card-10 {
     opacity: 1;
-    transform: scale(1);
-    background-color: #f3f3f3;
-    border-color: #f3f3f3; }
+    transform: scale(1);}
     .cards-slider.active-slide-10 #card-10 .details {
       opacity: 1; }
   
 .cards-slider.active-slide-11 #card-11 {
     opacity: 1;
-    transform: scale(1);
-    background-color: #f3f3f3;
-    border-color: #f3f3f3; }
+    transform: scale(1);}
     .cards-slider.active-slide-11 #card-11 .details {
       opacity: 1; }
   
 .cards-slider.active-slide-12 #card-12 {
     opacity: 1;
-    transform: scale(1);
-    background-color: #f3f3f3;
-    border-color: #f3f3f3; }
+    transform: scale(1);}
     .cards-slider.active-slide-12 #card-12 .details {
       opacity: 1; }
   
 .cards-slider.active-slide-13 #card-13 {
     opacity: 1;
-    transform: scale(1);
-    background-color: #f3f3f3;
-    border-color: #f3f3f3; }
+    transform: scale(1);}
     .cards-slider.active-slide-13 #card-13 .details {
       opacity: 1; }
   
 .cards-slider.active-slide-14 #card-14 {
     opacity: 1;
-    transform: scale(1);
-    background-color: #f3f3f3;
-    border-color: #f3f3f3; }
+    transform: scale(1);}
     .cards-slider.active-slide-14 #card-14 .details {
       opacity: 1; }
   
 .cards-slider.active-slide-15 #card-15 {
     opacity: 1;
-    transform: scale(1);
-    background-color: #f3f3f3;
-    border-color: #f3f3f3; }
+    transform: scale(1);}
     .cards-slider.active-slide-15 #card-15 .details {
       opacity: 1; }
     
@@ -209,9 +160,9 @@ section {
     .col:before, .col:after {
       content: '';
       display: block;
-      width: 50%;
+      width: 40%;
       height: 120%;
-      background: linear-gradient(to right, white 15%, rgba(255, 255, 255, 0) 100%);
+      background: linear-gradient(to right, white 5%, rgba(255, 255, 255, 0) 100%);
       position: absolute;
       top: 0;
       left: 0;
@@ -219,7 +170,7 @@ section {
     .col:after {
       left: auto;
       right: 0;
-      background: linear-gradient(to left, white 15%, rgba(255, 255, 255, 0) 100%); }
+      background: linear-gradient(to left, white 5%, rgba(255, 255, 255, 0) 100%); }
   
 .cards-slider {
     position: relative;

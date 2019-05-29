@@ -2,6 +2,7 @@ import React from 'react';
 import image from './assets/CloakandSwagger_logo.svg';
 import styled from 'styled-components';
 import Collapsible from './components/Collapsible';
+import { MDBAnimation } from "mdbreact";
 
 const Styles = styled.div`
     body {
@@ -89,7 +90,9 @@ export function Home() {
         <Styles>
             <div>
                 <header>
-                    <img src={image} />
+                    <MDBAnimation type="slideInRight" count={1}>
+                        <img src={image} alt="a cloaked figure with a bundle of swag and a cat following behind."/>
+                    </MDBAnimation>
                     <h1>Nau Mai, Welcome</h1>
                 </header>
                 <div className="content">

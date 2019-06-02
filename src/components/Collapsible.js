@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
-class Collapsible extends React.Component {
+class Collapsible extends Component {
 
     constructor(props){
         super(props)
@@ -15,7 +15,7 @@ class Collapsible extends React.Component {
         this.setState({
             isExpanded: !this.state.isExpanded,
             height: this.refs.inner.clientHeight
-        })
+        });
     }
 
     render(){

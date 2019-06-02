@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './Slider.css';
 import Card from './Card';
 import data from '../data/data';
-import { MDBBtn, MDBCollapse } from "mdbreact";
+import { MDBBtn } from "mdbreact";
 
 class Slider extends Component {
 
@@ -10,7 +10,7 @@ class Slider extends Component {
         super(props);
         this.state = {
           properties: data.properties,
-          property: data.properties[0]
+          property: data.properties[6]
         }
     }
     

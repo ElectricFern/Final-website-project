@@ -23,6 +23,13 @@ const Styles = styled.div`
         right: 0;
         z-index: -1;
     }
+
+    @media (max-width: 300px) {
+        h1 {
+            font-size: 32px !important;
+        }
+    }
+
 `;
 
 export const Jumbotron = () => (
@@ -30,6 +37,7 @@ export const Jumbotron = () => (
         <Jumbo fluid className="jumbo">
             <div className="overlay"></div>
             <Container>
+                <title>The Renegade Seamsmith, we sew custom cloaks and capes!</title>
                 <h1>The Renegade Seamsmith</h1>
                 <p>Bespoke cloaks and capes</p>
             </Container>

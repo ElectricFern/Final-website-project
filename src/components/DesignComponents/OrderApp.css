@@ -3,6 +3,16 @@
   box-sizing: border-box;
 }
 
+.App {
+  box-shadow: 1px 2px 3px 1px rgba(0, 0, 0, 0.5);
+  padding-top: 2px;
+  border-radius: 2px;
+}
+
+.design-image {
+  max-width: 100px;
+}
+
 .OrderApp {
   width: 100%;
   max-width: 960px;
@@ -14,28 +24,26 @@
   box-shadow: 0 0 26px rgba(0, 0, 0, .13);
 }
 
-.jumbotron{
-  text-align: center;
-  color:white;
-  background-size: cover;
-}
-
 .nav-tabs{
   margin-bottom:15px;
 }
 
 /* Canvas */
 #main-canvas{
+  margin-top: 40px;
   background: #ccc;
-  background: url('./images/bg-canvas.png');
+  background: url('../../images/bg-canvas.png');
   background-repeat: repeat;
   border:1px solid #ececec;
-  margin: auto;
-  display: block;
+  display: flex;
 
 }
 
 .main {
     padding: 1em 2em 2em 2em;
+}
+
+.main-canvas-container {
+  max-width: 400px;
 }
 

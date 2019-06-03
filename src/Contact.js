@@ -1,5 +1,5 @@
 import React from 'react'
-import ContactForm from './components/ContactForm';
+import ContactForm from './components/ContactComponents/ContactForm';
 import styled from 'styled-components';
 
 const Styles = styled.div`

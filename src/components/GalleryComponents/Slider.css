@@ -7,11 +7,11 @@ body {
 .sliderApp {
     text-align: center;
     position: relative; 
-    margin-bottom: 50px;
+    margin-bottom: 20px;
   }
     
 section {
-    padding: 20px 0;
+    padding: 5px 0;
     max-width: 600px;
     margin: 0 auto; }
 
@@ -156,8 +156,10 @@ section {
       opacity: 1; }
     
 .col {
-    height: 264px;
-    position: relative; }
+    margin: 10px 0 0 0;
+    height: 315px;
+    position: relative;
+    overflow: hidden; }
     .col:before, .col:after {
       content: '';
       display: block;

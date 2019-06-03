@@ -1,6 +1,6 @@
 import React from 'react';
 import image from './assets/CloakandSwagger_logo.svg';
-import Collapsible from './components/Collapsible';
+import Collapsible from './components/GlobalComponents/Collapsible';
 import { MDBAnimation } from "mdbreact";
 import './Home.scss';
 
@@ -17,7 +17,7 @@ export function Home() {
             <div className="content">
                 <div className="panel-group">
                     <div className="intro">
-                        <p>The Renegade Seamsmith is a small buisness which designs and creates premium quality bespoke Cloaks and Capes. </p>
+                        <p>The Renegade Seamsmith is a small business which designs and creates premium quality bespoke Cloaks and Capes. </p>
                     </div>
                     <Collapsible title="What we do">
                         <p>We take basic requirements for a custom cloak or cape, the artist designs it, and makes it adding their own artistic flair. The requirements are gathered using the app on the design page. The artist sketches some images, sources appropirate material, then sews using a heavy-duty sewing machine from their studio.</p>
@@ -29,7 +29,7 @@ export function Home() {
                     <p>DIY cloaks and capes are difficult to make save the time and stress and get us to make it for you. The price is fair as it pays a living wage and by not undercutting it supports other artists to not fold to commercial brand price pressure. By having an artist to to do the final product they can add additional flair to the basic requirements given. We also have a cool app which makes requesting a cloak or cape easier.</p>
                     </Collapsible>
                     <br></br>
-                    <p>You can follow us on <a rel="external link" href="" target="_blank" >Instagram</a> and <a rel="external link" href="" target="_blank">Facebook</a>.</p>
+                    <p>You can follow us on <a href="https://www.instagram.com/" rel="noopener" >Instagram</a> and <a href="https://www.facebook.com/" rel="noopener">Facebook</a>.</p>
                 </div>
             </div>
         </div>

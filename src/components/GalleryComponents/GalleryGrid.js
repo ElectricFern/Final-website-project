@@ -1,20 +1,8 @@
 import React, { Component } from 'react';
 import './GalleryGrid.scss';
-
-let imgUrls = [
-    'https://source.unsplash.com/3Z70SDuYs5g/800x600',
-    'https://source.unsplash.com/01vFmYAOqQ0/800x600',
-    'https://source.unsplash.com/2Bjq3A7rGn4/800x600',
-    'https://source.unsplash.com/t20pc32VbrU/800x600',
-    'https://source.unsplash.com/pHANr-CpbYM/800x600',
-    'https://source.unsplash.com/3PmwYw2uErY/800x600',
-    'https://source.unsplash.com/uOi3lg8fGl4/800x600',
-    'https://source.unsplash.com/CwkiN6_qpDI/800x600',
-    'https://source.unsplash.com/9O1oQ9SzQZQ/800x600',
-    'https://source.unsplash.com/E4944K_4SvI/800x600',
-    'https://source.unsplash.com/-hI5dX2ObAs/800x600',
-    'https://source.unsplash.com/vZlTg_McCDo/800x600'
-    ];
+import data from '../../data/data';
+import Button from 'react-bootstrap/Button';
+const datapoints = data.properties;
 
 // Component for gallery image
 class GalleryImage extends React.Component {
@@ -35,9 +23,9 @@ class GalleryModal extends Component {
         return(
             <div isOpen={this.props.isOpen} className='modal-overlay' onClick={this.props.onClick} name={this.props.name}>
             <div className='modal-body'>
-                <a className='modal-close' href='#' onClick={this.props.onClick}><span className='fa fa-times'></span></a>
+                <Button variant="dark" className='modal-close' onClick={this.props.onClick}><span className='fa fa-times'></span></Button>
                 
-                <img src={this.props.src} />
+                <img className='modal-item' src={this.props.src} alt={this.props.alt}/>
             </div>
             </div>
         )
@@ -64,12 +52,12 @@ class GalleryGrid extends Component {
           <div refs='gallery-container' className='container-fluid gallery-container'>
             <div className='row'>
               {
-                imgUrls.map((url, index) => {
-                   return <div className='col-sm-6 col-md-3 col-xl-2'>
+                datapoints.map((datapoint) => {
+                   return <div className='col-sm-6 col-md-3 col-xl-2' key={datapoint._id}>
                       <div className='gallery-card'>
-                        <GalleryImage className='gallery-thumbnail' src={url} alt={'Image number ' + (index + 1)} />
+                        <GalleryImage className='gallery-thumbnail' src={datapoint.picture} alt={datapoint.altText} />
                         
-                        <span className='card-icon-open fa fa-expand' value={url} onClick={(e) => this.openModal(url, e)}></span>
+                        <span className='card-icon-open fa fa-expand' value={datapoint.picture} onClick={(e) => this.openModal(datapoint.picture, e)}></span>
                       </div>
                     </div>
                  })

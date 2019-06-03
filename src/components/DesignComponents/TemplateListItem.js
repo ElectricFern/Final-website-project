@@ -1,5 +1,6 @@
 import React from 'react';
 import {Col} from 'react-bootstrap';
+import Button from 'react-bootstrap/Button';
 
 export default class TemplateListItem extends React.Component{
 
@@ -14,11 +15,9 @@ export default class TemplateListItem extends React.Component{
 		return(
 
 			<Col xs={6} md={4} >
-                <a href="#" className="thumbnail" onClick={this.localAddToCanvas}>
-
-                	<img alt ="" src={this.props.url} />
-                	
-                </a>
+                <Button variant="link" className="thumbnail" onClick={this.localAddToCanvas}>
+                	<img className="design-image" alt ="" src={this.props.url} />
+                </Button>
             </Col>
 		);
 	}

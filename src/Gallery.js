@@ -1,7 +1,7 @@
 import React from 'react'
-import Slider from './components/Slider';
-import GalleryGrid from './components/GalleryGrid';
-import Collapsible from './components/Collapsible';
+import Slider from './components/GalleryComponents/Slider';
+import GalleryGrid from './components/GalleryComponents/GalleryGrid';
+import Collapsible from './components/GlobalComponents/Collapsible';
 import { MDBContainer } from "mdbreact";
 import './Gallery.scss';
 

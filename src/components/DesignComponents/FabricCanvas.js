@@ -1,6 +1,6 @@
 import React from 'react';
 import {fabric} from 'fabric';
-import {Button} from 'react-bootstrap';
+import Button from 'react-bootstrap/Button';
 
 
 class FabricCanvas extends React.Component{
@@ -10,17 +10,17 @@ class FabricCanvas extends React.Component{
 		// Make a New Canvas
 		this.the_canvas = new fabric.StaticCanvas('main-canvas', {
 			preserveObjectStacking: true,
-			height:500,
+			height:550,
 			width:400,
 		});
 	}
 
-	componentWillReceiveProps = (newprops) =>{
+	componentWillReceiveProps = (newProps) =>{
 
 		// If Updated Item is not the same as the old one
 		// 		=> Update the canvas with newer item
-		if(newprops.activeProperty !== this.props.activeProperty){
-			this.updateCanvasforImage(this.props.activeProperty,newprops.activeProperty);
+		if(newProps.activeProperty !== this.props.activeProperty){
+			this.updateCanvasforImage(this.props.activeProperty,newProps.activeProperty);
 		}
 	}
 
@@ -67,7 +67,7 @@ class FabricCanvas extends React.Component{
 				<canvas id= 'main-canvas'>
 				</canvas>
 
-				<Button bsStyle="success" onClick = {this.saveToCanvas} bsSize="large" block>
+				<Button variant="dark" onClick = {this.saveToCanvas} size="medium" block>
                 	Download Design
               	</Button>
 			</div>

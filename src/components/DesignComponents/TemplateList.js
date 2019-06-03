@@ -14,7 +14,7 @@ export default class TemplateList extends React.Component{
 				url={item}
 				property_type = {this.props.property_type} 
 				zIndex = {this.props.zIndex} 
-				addToCanvas = {this.props.addtocanvas}
+				addToCanvas = {this.props.addToTheCanvas}
 				key={item}
 			/>
 

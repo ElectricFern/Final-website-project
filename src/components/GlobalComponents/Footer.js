@@ -43,11 +43,12 @@ const Styles = styled.div`
         display: flex;
         justify-content: center;
     }
-    i {
-        padding: 5px 5px 5px 5px;
-    }
     .footer-button {
         border-radius: 10px;
+    }
+    svg:not(:root).svg-inline--fa {
+        overflow: visible;
+        color: white;
     }
 `
 
@@ -76,8 +77,8 @@ export const Footer = () => (
                             <h2 className="footer-h2">Follow Us</h2>
                             <p className="p-footer">Follow us for up to date news and releases</p>
                             <div className="social-footer-links">
-                                <Button variant="link" size="lg" href="https://www.facebook.com/"><FontAwesomeIcon icon={faFacebook} size='4x'/></Button>
-                                <Button variant="link" size="lg" href="https://www.instagram.com/"><FontAwesomeIcon icon={faInstagram} size='4x'/></Button>
+                                <Button variant="link" size="sm" href="https://www.facebook.com/"><FontAwesomeIcon icon={faFacebook} size='4x'/></Button>
+                                <Button variant="link" size="sm" href="https://www.instagram.com/"><FontAwesomeIcon icon={faInstagram} size='4x'/></Button>
                             </div>
                         </div>
                         <div className="col-md-3 col-sm-6 col-xs-12 fourth-divider">

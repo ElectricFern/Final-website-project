@@ -7,6 +7,7 @@ const bgList = [
 	require('./bgs/3.png'),
 	require('./bgs/4.png'),
 	require('./bgs/5.png'),
+	require('./bgs/6.png'),
 	
 ]
 

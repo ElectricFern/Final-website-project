@@ -10,7 +10,7 @@ export function Gallery() {
         <MDBContainer>
             <Slider></Slider>
             <br></br>
-            <div className="content-gallert">
+            <div className="content-gallery">
                 <div className="panel-group-gallery">
                     <Collapsible title="All Images">
                         <GalleryGrid></GalleryGrid>

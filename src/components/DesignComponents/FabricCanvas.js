@@ -5,7 +5,22 @@ import Button from 'react-bootstrap/Button';
 
 class FabricCanvas extends React.Component{
 
+
+
 	componentDidMount(){
+
+	// 	var width = 400;
+	// 	var height = 550;
+	// 	var scaleFactor =1;
+
+	// 	if(screen.width < 800) {
+	// 		scaleFactor = 0.8;
+	//    } else if (screen.width > 1200) {
+	// 		scaleFactor = 1.2;
+	//    } 
+	 
+	//    width = width * scaleFactor;
+	//    height = height * scaleFactor; 
 
 		// Make a New Canvas
 		this.the_canvas = new fabric.StaticCanvas('main-canvas', {
@@ -64,7 +79,7 @@ class FabricCanvas extends React.Component{
 		return (
 			<div className= "main-canvas-container">
 				
-				<canvas id= 'main-canvas'>
+				<canvas className='main-canvas' id= 'main-canvas'>
 				</canvas>
 
 				<Button variant="dark" onClick = {this.saveToCanvas} size="medium" block>

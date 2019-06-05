@@ -28,8 +28,6 @@ export function Home() {
                     <Collapsible title="Why us?">
                     <p>DIY cloaks and capes are difficult to make save the time and stress and get us to make it for you. The price is fair as it pays a living wage and by not undercutting it supports other artists to not fold to commercial brand price pressure. By having an artist to to do the final product they can add additional flair to the basic requirements given. We also have a cool app which makes requesting a cloak or cape easier.</p>
                     </Collapsible>
-                    <br></br>
-                    <p>You can follow us on <a href="https://www.instagram.com/" rel="noopener" >Instagram</a> and <a href="https://www.facebook.com/" rel="noopener">Facebook</a>.</p>
                 </div>
             </div>
         </div>

@@ -25,7 +25,7 @@ const Styles = styled.div`
     }
 
     @media (max-width: 300px) {
-        h1 {
+        .jumbo-h1 {
             font-size: 32px !important;
         }
     }
@@ -38,7 +38,7 @@ export const Jumbotron = () => (
             <div className="overlay"></div>
             <Container>
                 <title>The Renegade Seamsmith, we sew custom cloaks and capes!</title>
-                <h1>The Renegade Seamsmith</h1>
+                <h1 className="jumbo-h1">The Renegade Seamsmith</h1>
                 <p>Bespoke cloaks and capes</p>
             </Container>
         </Jumbo>

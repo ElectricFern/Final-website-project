@@ -29,14 +29,13 @@
 }
 
 /* Canvas */
-#main-canvas{
+.main-canvas{
   margin-top: 40px;
   background: #ccc;
   background: url('../../images/bg-canvas.png');
   background-repeat: repeat;
   border:1px solid #ececec;
   display: flex;
-
 }
 
 .main {
@@ -45,5 +44,6 @@
 
 .main-canvas-container {
   max-width: 400px;
+  display: block;
 }
 

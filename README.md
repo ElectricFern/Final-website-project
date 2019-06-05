@@ -19,9 +19,9 @@ Require installed prerequesties (if already installed check for updates):
 -react-router-dom  
 -prop-types  
 -styles-components  
--@fortawesome/free-brands-svg-icons
--@fortawesome/fontawesome-svg-core 
--@fortawesome/react-fontawesome
+-@fortawesome/free-brands-svg-icons  
+-@fortawesome/fontawesome-svg-core   
+-@fortawesome/react-fontawesome  
 
 4.Type yarn start or npm start to bring up the development server page  
 5.Open VisualStudioCode or any other code editor you like and open the folder containing the src file.  

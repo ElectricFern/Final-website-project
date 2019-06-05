@@ -22,13 +22,14 @@ Require installed prerequesties (if already installed check for updates):
 -@fortawesome/free-brands-svg-icons  
 -@fortawesome/fontawesome-svg-core   
 -@fortawesome/react-fontawesome  
+-react-helmet
 
 4.Type yarn start or npm start to bring up the development server page  
 5.Open VisualStudioCode or any other code editor you like and open the folder containing the src file.  
 6.You are now good to go  
 
 Attribution:  
-All the code used from others code is MIT lisenced, or created by following tutorials. I have decided to give attribution anyway so that others can follow the people that helped me.  
+All the code, plugins, and dependencies used are all MIT lisenced, or created by following tutorials. I have decided to give attribution anyway so that others can follow the people that helped me.  
 Tutorials followed:  
 -https://www.kirupa.com/react/ thank you Kirupa!  
 -https://www.youtube.com/watch?v=tOK9l5uP06U -https://github.com/MyNameIsURL/React-Bootstrap-Tutorial thanks Brice Ayres  

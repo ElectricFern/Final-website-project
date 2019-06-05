@@ -3,12 +3,7 @@ import {fabric} from 'fabric';
 import Button from 'react-bootstrap/Button';
 
 
-class FabricCanvas extends React.Component{
-
-
-
-	componentDidMount(){
-
+	// Work in progress below uncommented code to help make the canvas template responsive
 	// 	var width = 400;
 	// 	var height = 550;
 	// 	var scaleFactor =1;
@@ -20,7 +15,15 @@ class FabricCanvas extends React.Component{
 	//    } 
 	 
 	//    width = width * scaleFactor;
-	//    height = height * scaleFactor; 
+	//    height = height * scaleFactor;
+	// END of note
+
+
+class FabricCanvas extends React.Component{
+
+
+
+	componentDidMount(){
 
 		// Make a New Canvas
 		this.the_canvas = new fabric.StaticCanvas('main-canvas', {
@@ -77,11 +80,9 @@ class FabricCanvas extends React.Component{
 	render(){
 		
 		return (
-			<div className= "main-canvas-container">
-				
-				<canvas className='main-canvas' id= 'main-canvas'>
+			<div className= "main-canvas-container">				
+				<canvas className='main-canvas' id='main-canvas'>
 				</canvas>
-
 				<Button variant="dark" onClick = {this.saveToCanvas} size="medium" block>
                 	Download Design
               	</Button>

@@ -6,21 +6,18 @@ import styled from 'styled-components';
 const Styles = styled.div`
     .navbar {
         background-color: #222;
-    }
-    
+    }   
     a, .navbar-brand, .navbar-nav .nav-link {
         color: #bbb;
-
         &:hover {
             color: white;
         }
     }
-
 `;
 
 export const NavigationBar = () => (
     <Styles>
-        <Navbar variant="dark" expand='md'>
+        <Navbar variant="dark" expand='md' fixed="top">
             <Navbar.Brand href="/">RS</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">

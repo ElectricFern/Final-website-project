@@ -8,7 +8,7 @@ const Styles = styled.div`
         background: url(${jumbotronimage}) no-repeat fixed bottom;
         background-size: cover;
         color: #ccc;
-        height: 200px;
+        height: 300px;
         position: relative;
         z-index: -2;
     }
@@ -22,6 +22,9 @@ const Styles = styled.div`
         bottom: 0;
         right: 0;
         z-index: -1;
+    }
+    .jumbo-h1 {
+        margin-top: 50px;
     }
 
     @media (max-width: 300px) {

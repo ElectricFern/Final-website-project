@@ -45,6 +45,7 @@ const Styles = styled.div`
     }
     .footer-button {
         border-radius: 10px;
+        
     }
     svg:not(:root).svg-inline--fa {
         overflow: visible;

@@ -10,11 +10,19 @@ import { Layout } from './components/GlobalComponents/Layout';
 import { NavigationBar } from './components/GlobalComponents/NavigationBar';
 import { Jumbotron } from './components/GlobalComponents/Jumbotron';
 import { Footer } from './components/GlobalComponents/Footer';
+import { Helmet } from 'react-helmet';
 
 class App extends Component {
   render() {
     return (
       <React.Fragment>
+        <div className="application-head-seo">
+            <Helmet>
+            <title>Renegade Seamsmith</title>
+            <meta name="description" content="A place of cloaks and capes"/>
+            <meta name="keywords" content="custom cloak cape design sewing wellington zealand"/>
+            </Helmet>
+        </div> 
         <Router>
           <NavigationBar />
           <Jumbotron />

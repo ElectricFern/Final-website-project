@@ -59,13 +59,14 @@ $transition: all .25s ease-in-out;
   top: 50%;
   left: 50%;
   z-index: 11;
-  padding: 0;
+  margin: 40px 0;
   overflow: auto;
   max-width: 100%;
   max-height: 100%;
   border-radius: $radius;
   transform: translate(-50%, -50%);
 }
+
 
 .modal-item {
   width: 100%;
@@ -74,8 +75,8 @@ $transition: all .25s ease-in-out;
 
 .modal-close {
   position: absolute;
-  top: 0;
-  right: 8px;
+  top: 20px;
+  right: 15px;
   font-size: 1.5rem;
   color: $black;
   transition: $transition;

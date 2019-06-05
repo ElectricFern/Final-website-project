@@ -23,7 +23,7 @@ class GalleryModal extends Component {
         return(
             <div isOpen={this.props.isOpen} className='modal-overlay' onClick={this.props.onClick} name={this.props.name}>
             <div className='modal-body'>
-                <Button variant="dark" className='modal-close' onClick={this.props.onClick}><span className='fa fa-times'></span></Button>
+                <Button variant="dark" size='sm' className='modal-close' onClick={this.props.onClick}><span className='fa fa-times'></span></Button>
                 
                 <img className='modal-item' src={this.props.src} alt={this.props.alt}/>
             </div>

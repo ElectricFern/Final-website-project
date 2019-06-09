@@ -13,6 +13,10 @@
   max-width: 100px;
 }
 
+.thumbnail {
+  padding: 0px !important;
+}
+
 .OrderApp {
   width: 100%;
   max-width: 960px;
@@ -35,7 +39,6 @@
   background: url('../../images/bg-canvas.png');
   background-repeat: repeat;
   border:1px solid #ececec;
-  display: flex;
 }
 
 .main {

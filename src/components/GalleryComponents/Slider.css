@@ -154,6 +154,38 @@ section {
     transform: scale(1);}
     .cards-slider.active-slide-15 #card-15 .details {
       opacity: 1; }
+  
+.cards-slider.active-slide-16 #card-16 {
+    opacity: 1;
+    transform: scale(1);}
+    .cards-slider.active-slide-16 #card-16 .details {
+      opacity: 1; }
+  
+.cards-slider.active-slide-17 #card-17 {
+    opacity: 1;
+    transform: scale(1);}
+    .cards-slider.active-slide-17 #card-17 .details {
+      opacity: 1; }
+      
+.cards-slider.active-slide-18 #card-18 {
+    opacity: 1;
+    transform: scale(1);}
+    .cards-slider.active-slide-18 #card-18 .details {
+      opacity: 1; }
+      
+.cards-slider.active-slide-19 #card-19 {
+    opacity: 1;
+    transform: scale(1);}
+    .cards-slider.active-slide-19 #card-19 .details {
+      opacity: 1; }
+      
+.cards-slider.active-slide-20 #card-20 {
+    opacity: 1;
+    transform: scale(1);}
+    .cards-slider.active-slide-20 #card-20 .details {
+      opacity: 1; }
+    
+
     
 .col {
     margin: 10px 0 0 0;

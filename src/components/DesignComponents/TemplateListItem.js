@@ -14,7 +14,7 @@ export default class TemplateListItem extends React.Component{
 
 		return(
 
-			<Col xs={6} md={4} >
+			<Col xs={5} sm={4} md={3}>
                 <Button variant="link" className="thumbnail" onClick={this.localAddToCanvas}>
                 	<img className="design-image" alt ="" src={this.props.url} />
                 </Button>

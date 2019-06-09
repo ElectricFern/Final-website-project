@@ -76,15 +76,6 @@ input.error {
     display: flex;
     flex-direction: column;
     margin-bottom: 15px;
-}
-
-.firstName,
-.lastName {
-    width: 49%;
-}
-
-.email,
-.Subject {
     width: 100%;
 }
 

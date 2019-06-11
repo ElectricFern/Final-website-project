@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Slider.css';
+import './Slider.scss';
 import Card from './Card';
 import data from '../../data/data';
 import { MDBBtn } from "mdbreact";

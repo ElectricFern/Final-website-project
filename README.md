@@ -1,3 +1,5 @@
+#Note: This repository has been archived due to it being some of work I did while studying and not for public pull requests or such activities.
+
 ### ***Do not use the dependencies in this project live as a few have security issues and I am yet to find the time to upgrade them.***
 
 # The Renegade Seamsmith
